@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/main_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorTransparent"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_city"
+            style="@style/MainHeadText"
+            android:text="@string/main_head_city" />
+
+        <TextView
+            android:id="@+id/tv_add"
+            style="@style/MainHeadText"
+            android:text="@string/main_head_add" />
+
+        <TextView
+            android:id="@+id/tv_refresh"
+            style="@style/MainHeadText"
+            android:text="@string/main_head_refresh" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <yqb.com.example.weatherdemo.RotateLoading
+                android:layout_marginTop="50px"
+                android:layout_marginBottom="50px"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/rl_load"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:descendantFocusability="blocksDescendants"
+                android:orientation="vertical"
+                android:id="@+id/ll_main">
+
+                <TextView
+                    android:id="@+id/tv_weather_city"
+                    style="@style/MainWeatherText"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/tv_weather_time"
+                    style="@style/MainWeatherText"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:id="@+id/iv_icon"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_weather_temp"
+                        style="@style/MainWeatherText"
+                        android:textSize="30sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_weather_detail"
+                    style="@style/MainWeatherText"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tv_weather_aqi"
+                    style="@style/MainWeatherText"
+                    android:textSize="14sp" />
+
+                <yqb.com.example.weatherdemo.WeatherChart
+                    android:layout_width="match_parent"
+                    android:layout_height="220px"
+                    android:layout_marginTop="16dp"
+                    android:id="@+id/weather_chart"
+                    android:visibility="gone"/>
+
+                <yqb.com.example.weatherdemo.MyGridView
+                    android:id="@+id/gv_living_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:numColumns="2" >
+                </yqb.com.example.weatherdemo.MyGridView>
+            </LinearLayout>
+        </FrameLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="living_detail_title">
+        <item>紫外线指数</item>
+        <item>日落</item>
+        <item>风力</item>
+        <item>穿衣指数</item>
+        <item>户外锻炼</item>
+        <item>洗车</item>
+        <item>舒适度</item>
+        <item>感冒指数</item>
+    </string-array>
+</resources>

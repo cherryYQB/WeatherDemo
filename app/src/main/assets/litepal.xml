@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<litepal>
+    <dbname value = "weather_data"/>
+
+    <version value = "2"></version>
+
+    <list>
+        <mapping class="yqb.com.example.weatherdemo.bean.WeatherDataBean"></mapping>
+    </list>
+
+</litepal>

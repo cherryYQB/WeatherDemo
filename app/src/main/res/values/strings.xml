@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">WeatherDemo</string>
+
+    <string name="no_net_msg">The current network is not connected, please check the network</string>
+    <string name="bt_ok">OK</string>
+    <string name="bt_cancel">Cancel</string>
+    <string name="db_copy_fail">Error!</string>
+    <string name="db_copy_success">Initialization successful!</string>
+    <string name="main_head_city">City</string>
+    <string name="main_head_refresh">Refresh</string>
+    <string name="main_head_add">Add</string>
+    <string name="add_msg">Please input key to search</string>
+    <string name="add_msg_null">The result was not found </string>
+    <string name="add_success">Add success</string>
+    <string name="add_fail">Add fail</string>
+    <string name="error">An unknown error occurred. Please try again </string>
+    <string name="today">Today</string>
+    <string name="is_loading">Loading</string>
+    <string name="year">-</string>
+    <string name="mouth">-</string>
+    <string name="day">-</string>
+    <string name="null_data">AQI No data</string>
+    <string name="no_net">Please check net</string>
+    <string name="again_request">Server error, please click refresh to try to connect again </string>
+    <string name="unknow_city">The city is not included in the data, please wait for the next update</string>
+    <string name="net_error">Net error</string>
+    <string name="request_refresh">Please refresh </string>
+    <string name="hint_search">Search city</string>
+    <string name="city_manager">City</string>
+    <string name="delete_msg">Do you want to delete this record? </string>
+    <string name="is_refreshing">Refreshing</string>
+    <string name="no_city">No city has been saved </string>
+    <string name="no_data">No data</string>
+    <string name="temp">°c</string>
+    <string name="degree">°</string>
+    <string name="beijing">Beijing</string>
+    <string name="xingqi">xingqi</string>
+    <string name="week">week</string>
+</resources>

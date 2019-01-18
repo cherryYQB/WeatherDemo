@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="living_detail_title">
+        <item>Ultra-violet Index</item>
+        <item>Sunset</item>
+        <item>Wind-force</item>
+        <item>Dressing Index</item>
+        <item>Outdoor Exercise</item>
+        <item>Vehicle Cleaning</item>
+        <item>Degree Of Comfort</item>
+        <item>Cold index</item>
+    </string-array>
+</resources>

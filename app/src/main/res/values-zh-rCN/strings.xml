@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">我的天气</string>
+    <string name="no_net_msg">当前网络没有连接，请检查网络</string>
+    <string name="bt_ok">确定</string>
+    <string name="bt_cancel">取消</string>
+    <string name="db_copy_fail">初始化失败！</string>
+    <string name="db_copy_success">初始化成功！</string>
+    <string name="main_head_city">城市</string>
+    <string name="main_head_refresh">刷新</string>
+    <string name="main_head_add">添加</string>
+    <string name="add_msg">请输入关键字进行查询</string>
+    <string name="add_msg_null">未找到结果</string>
+    <string name="add_success">添加成功</string>
+    <string name="add_fail">添加失败</string>
+    <string name="error">发生未知错误，请重试</string>
+    <string name="today">今天</string>
+    <string name="is_loading">正在加载</string>
+    <string name="year">年</string>
+    <string name="mouth">月</string>
+    <string name="day">日</string>
+    <string name="null_data">AQI 暂无数据</string>
+    <string name="no_net">请检查网络连接</string>
+    <string name="again_request">服务器错误，请点击刷新尝试再次连接</string>
+    <string name="unknow_city">未收录该城市数据，请等待下次更新</string>
+    <string name="net_error">网络连接错误</string>
+    <string name="request_refresh">请刷新</string>
+    <string name="hint_search">搜索城市</string>
+    <string name="city_manager">城市管理</string>
+    <string name="delete_msg">是否要删除此条记录？</string>
+    <string name="is_refreshing">正在刷新中</string>
+    <string name="no_city">还未保存任何城市</string>
+    <string name="no_data">无数据</string>
+    <string name="temp">°c</string>
+    <string name="degree">°</string>
+    <string name="beijing">北京</string>
+    <string name="xingqi">星期</string>
+    <string name="week">周</string>
+</resources>
